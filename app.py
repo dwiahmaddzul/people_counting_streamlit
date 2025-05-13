@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import streamlit as st
 import cv2
 from yolo_people_counter import PeopleCounter
@@ -78,4 +77,3 @@ if run and cap.isOpened():
         count_text.markdown(f"**Total People Detected: {count}**")
 else:
     st.warning("Waiting for video input...")
->>>>>>> 3f85401fc4bbda3449d9e310ae0a9d9fcceb4b62
