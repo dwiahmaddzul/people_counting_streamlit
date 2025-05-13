@@ -7,7 +7,7 @@ import tempfile
 st.title("🧍 Real-Time People Counting with YOLO")
 st.markdown("Upload video to count people in real-time.")
 
-counter = PeopleCounter("best.pt")
+counter = PeopleCounter("Kelompok2Model.pt")
 
 uploaded_file = st.file_uploader("Choose a video file", type=["mp4", "avi", "mov", "mpeg4"])
 frame_window = st.image([])
