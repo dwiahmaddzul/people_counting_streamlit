@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 streamlit
 ultralytics
 opencv-python
+=======
+streamlit
+ultralytics
+opencv-python
+>>>>>>> 3f85401fc4bbda3449d9e310ae0a9d9fcceb4b62
 numpy
